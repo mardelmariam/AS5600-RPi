@@ -11,7 +11,7 @@ GPIO.setmode(GPIO.BCM)
 
 # Hardware constraints
 I2C_BUS = 1
-I2C_MUX_ADDR = 0x70
+I2C_MUX_ADDR = 0x70 # TCA9548A address
 I2C_MUX_DEVICE = 0x04 # It should be 0x1, 0x2, 0x4, and so on
 AS5600_I2C_ADDR = 0x36
 RESET_PIN = 4
@@ -19,8 +19,8 @@ RESET_PIN = 4
 """
 
 A reset pin is added. Sometimes, when using AS5600 encoders with 
-motors, these ICs's freeze . Then, a reset before reading values
-should help you perform  any operation at ease!
+motors, these ICs's freeze. Then, a reset before reading values
+should help you execute any instruction you need
 
 """
 
