@@ -6,7 +6,7 @@ Basic AS5600 readout
 
 import time, smbus, RPi.GPIO as GPIO
 
-# ADS1115 hardware constraints
+# Hardware constraints
 I2C_BUS = 1
 AS5600_I2C_ADDR = 0x36
 
