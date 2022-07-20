@@ -18,7 +18,7 @@ RESET_PIN = 4
 
 """
 
-A reset pin is added. Sometimes, when using AS5600 encoders with 
+A reset pin is added. Sometimes, when using TCA9548A with 
 motors, these ICs's freeze. Then, a reset before reading values
 should help you execute any instruction you need
 
